@@ -1,0 +1,73 @@
+#!name=Host DNS 映射
+#!desc=按域名指定 DNS：Apple、阿里、腾讯、哔哩哔哩、美团、咪咕、比亚迪
+#!author=riffraffs
+#!homepage=https://github.com/riffraffs/loon-host-dns
+#!date=2026-10-01 08:08:00
+
+[Host]
+# Apple
+*.testflight.apple.com = server:8.8.4.4
+*.mzstatic.com = server:223.5.5.5
+*.cdn-apple.com = server:223.5.5.5
+*.aaplimg.com = server:223.5.5.5
+*.apple.com.cn = server:223.5.5.5
+*.icloud.com.cn = server:223.5.5.5
+
+# 阿里系
+*.taobao.com = server:223.5.5.5
+*.tmall.com = server:223.5.5.5
+*.alicdn.com = server:223.5.5.5
+*.aliyun.com = server:223.5.5.5
+*.alipay.com = server:223.5.5.5
+*.aliyundrive.com = server:223.5.5.5
+*.alibaba.com = server:223.5.5.5
+*.alibabausercontent.com = server:223.5.5.5
+*.amap.com = server:223.5.5.5
+*.ele.me = server:223.5.5.5
+*.elemecdn.com = server:223.5.5.5
+*.cainiao.com = server:223.5.5.5
+*.dingtalk.com = server:223.5.5.5
+
+# 腾讯系
+*.qq.com = server:119.29.29.29
+*.tencent.com = server:119.29.29.29
+*.tencent-cloud.net = server:119.29.29.29
+*.weixin.com = server:119.29.29.29
+*.weixin.qq.com.cn = server:119.29.29.29
+*.wechat.com = server:119.29.29.29
+*.gtimg.cn = server:119.29.29.29
+*.idqqimg.com = server:119.29.29.29
+*.tenpay.com = server:119.29.29.29
+*.qpic.cn = server:119.29.29.29
+*.qcloud.com = server:119.29.29.29
+*.qlogo.com = server:119.29.29.29
+
+# 哔哩哔哩
+*.bilibili.com = server:119.29.29.29
+*.bilivideo.com = server:119.29.29.29
+*.bilivideo.cn = server:119.29.29.29
+*.hdslb.com = server:119.29.29.29
+*.biliapi.net = server:119.29.29.29
+*.b23.tv = server:119.29.29.29
+
+# 美团 / 大众点评
+*.meituan.com = server:223.5.5.5
+*.dianping.com = server:223.5.5.5
+*.meituan.net = server:223.5.5.5
+
+# 咪咕
+*.migu.cn = server:119.29.29.29
+*.miguvideo.com = server:119.29.29.29
+*.cmvideo.cn = server:119.29.29.29
+*.migucloud.com = server:119.29.29.29
+*.migutv.com = server:119.29.29.29
+*.migucdn.cn = server:119.29.29.29
+*.miguvideo.com.cn = server:119.29.29.29
+*.migufm.com = server:119.29.29.29
+*.migufun.com = server:119.29.29.29
+*.cmread.com = server:119.29.29.29
+
+# 比亚迪
+*.bydoceanauto.com = server:119.29.29.29
+*.bydauto.com.cn = server:119.29.29.29
+*.byd.auto = server:119.29.29.29
