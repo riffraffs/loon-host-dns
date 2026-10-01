@@ -1,5 +1,5 @@
 #!name=Host DNS 映射
-#!desc=按域名指定 DNS：Apple、阿里、腾讯、哔哩哔哩、美团、咪咕、比亚迪
+#!desc=按域名指定 DNS
 #!author=riffraffs
 #!homepage=https://github.com/riffraffs/loon-host-dns
 #!date=2026-10-01 08:08:00
