@@ -12,6 +12,7 @@
 *.aaplimg.com = server:223.5.5.5
 *.apple.com.cn = server:223.5.5.5
 *.icloud.com.cn = server:223.5.5.5
+*.push.apple.com = server:223.5.5.5
 
 # 阿里系
 *.taobao.com = server:223.5.5.5
