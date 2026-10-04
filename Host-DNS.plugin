@@ -15,31 +15,61 @@
 
 # 阿里系
 *.taobao.com = server:223.5.5.5
+*.tbcdn.cn = server:223.5.5.5
+*.taobaocdn.com = server:223.5.5.5
 *.tmall.com = server:223.5.5.5
-*.alicdn.com = server:223.5.5.5
-*.aliyun.com = server:223.5.5.5
-*.alipay.com = server:223.5.5.5
-*.aliyundrive.com = server:223.5.5.5
+*.tmall.hk = server:223.5.5.5
+*.1688.com = server:223.5.5.5
 *.alibaba.com = server:223.5.5.5
 *.alibabausercontent.com = server:223.5.5.5
+*.alicdn.com = server:223.5.5.5
+*.aliyuncs.com = server:223.5.5.5
+*.aliyun.com = server:223.5.5.5
+*.aliyuncdn.com = server:223.5.5.5
+*.kunlunaq.com = server:223.5.5.5
+*.kunlunsl.com = server:223.5.5.5
+*.kunlunar.com = server:223.5.5.5
+*.kunlunca.com = server:223.5.5.5
+*.kunlungr.com = server:223.5.5.5
+*.cdngslb.com = server:223.5.5.5
+*.alipay.com = server:223.5.5.5
+*.alipayobjects.com = server:223.5.5.5
+*.alipaydns.com = server:223.5.5.5
+*.mybank.cn = server:223.5.5.5
+*.antgroup.com = server:223.5.5.5
+*.aliyundrive.com = server:223.5.5.5
+*.alipan.com = server:223.5.5.5
 *.amap.com = server:223.5.5.5
+*.autonavi.com = server:223.5.5.5
 *.ele.me = server:223.5.5.5
 *.elemecdn.com = server:223.5.5.5
 *.cainiao.com = server:223.5.5.5
 *.dingtalk.com = server:223.5.5.5
+*.dingtalkapps.com = server:223.5.5.5
+*.umeng.com = server:223.5.5.5
 
 # 腾讯系
 *.qq.com = server:119.29.29.29
 *.tencent.com = server:119.29.29.29
 *.tencent-cloud.net = server:119.29.29.29
-*.weixin.com = server:119.29.29.29
-*.weixin.qq.com.cn = server:119.29.29.29
-*.wechat.com = server:119.29.29.29
-*.gtimg.cn = server:119.29.29.29
-*.idqqimg.com = server:119.29.29.29
-*.tenpay.com = server:119.29.29.29
-*.qpic.cn = server:119.29.29.29
+*.tencent-cloud.com = server:119.29.29.29
+*.myqcloud.com = server:119.29.29.29
 *.qcloud.com = server:119.29.29.29
+*.qcloudcdn.com = server:119.29.29.29
+*.cdntip.com = server:119.29.29.29
+*.dnsv1.com = server:119.29.29.29
+*.tcdnos.com = server:119.29.29.29
+*.weixin.com = server:119.29.29.29
+*.wechat.com = server:119.29.29.29
+*.weixinbridge.com = server:119.29.29.29
+*.servicewechat.com = server:119.29.29.29
+*.wechatpay.cn = server:119.29.29.29
+*.tenpay.com = server:119.29.29.29
+*.gtimg.cn = server:119.29.29.29
+*.gtimg.com = server:119.29.29.29
+*.idqqimg.com = server:119.29.29.29
+*.qpic.cn = server:119.29.29.29
+*.qlogo.cn = server:119.29.29.29
 *.qlogo.com = server:119.29.29.29
 
 # 哔哩哔哩
@@ -52,8 +82,10 @@
 
 # 美团 / 大众点评
 *.meituan.com = server:223.5.5.5
-*.dianping.com = server:223.5.5.5
 *.meituan.net = server:223.5.5.5
+*.dianping.com = server:223.5.5.5
+*.maoyan.com = server:223.5.5.5
+*.sankuai.com = server:223.5.5.5
 
 # 咪咕
 *.migu.cn = server:119.29.29.29
@@ -67,7 +99,23 @@
 *.migufun.com = server:119.29.29.29
 *.cmread.com = server:119.29.29.29
 
+# 京东
+jd.com = server:223.5.5.5
+*.jd.com = server:223.5.5.5
+*.jdcloud.com = server:223.5.5.5
+*.360buyimg.com = server:223.5.5.5
+*.3.cn = server:223.5.5.5
+*.jdpay.com = server:223.5.5.5
+
 # 比亚迪
 *.bydoceanauto.com = server:119.29.29.29
 *.bydauto.com.cn = server:119.29.29.29
 *.byd.auto = server:119.29.29.29
+
+# 出行、支付、政务常用
+*.ctrip.com = server:223.5.5.5
+*.trip.com = server:223.5.5.5
+*.12306.cn = server:223.5.5.5
+*.95516.com = server:223.5.5.5
+*.unionpay.com = server:223.5.5.5
+*.icbc.com.cn = server:223.5.5.5
