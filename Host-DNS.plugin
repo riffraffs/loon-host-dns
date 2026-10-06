@@ -6,13 +6,17 @@
 
 [Host]
 # Apple
-*.testflight.apple.com = server:8.8.4.4
 *.mzstatic.com = server:223.5.5.5
 *.cdn-apple.com = server:223.5.5.5
 *.aaplimg.com = server:223.5.5.5
 *.apple.com.cn = server:223.5.5.5
 *.icloud.com.cn = server:223.5.5.5
+*.icloud-content.com = server:223.5.5.5
+*.apple-cloudkit.com = server:223.5.5.5
+*.itunes.apple.com = server:223.5.5.5
+push.apple.com = server:223.5.5.5
 *.push.apple.com = server:223.5.5.5
+*.testflight.apple.com = server:8.8.4.4
 
 # 阿里系
 *.taobao.com = server:223.5.5.5
