@@ -83,6 +83,7 @@ push.apple.com = server:223.5.5.5
 *.bilivideo.cn = server:119.29.29.29
 *.hdslb.com = server:119.29.29.29
 *.biliapi.net = server:119.29.29.29
+*.biliapi.com = server:119.29.29.29
 *.b23.tv = server:119.29.29.29
 
 # 美团 / 大众点评
