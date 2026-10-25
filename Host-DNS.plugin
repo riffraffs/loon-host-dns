@@ -2,7 +2,7 @@
 #!desc=按域名指定国内明文 DNS（阿里 223.5.5.5 / 腾讯 119.29.29.29），加速国内域名解析
 #!author=riffraffs
 #!homepage=https://github.com/riffraffs/loon-host-dns
-#!date=2026-10-25 20:05:00
+#!date=2026-10-25 20:20:00
 
 [Host]
 # Apple
@@ -195,14 +195,6 @@ b23.tv = server:119.29.29.29
 *.sina.cn = server:223.5.5.5
 *.sinaimg.cn = server:223.5.5.5
 
-# 快手
-*.kuaishou.com = server:119.29.29.29
-*.gifshow.com = server:119.29.29.29
-*.yximgs.com = server:119.29.29.29
-*.kwaicdn.com = server:119.29.29.29
-*.kwimgs.com = server:119.29.29.29
-*.ksapisrv.com = server:119.29.29.29
-
 # 爱奇艺 / 芒果TV / 央视
 *.iqiyi.com = server:223.5.5.5
 *.qiyi.com = server:223.5.5.5
@@ -263,14 +255,6 @@ b23.tv = server:119.29.29.29
 *.189.cn = server:223.5.5.5
 *.10010.com = server:223.5.5.5
 *.gov.cn = server:223.5.5.5
-
-# 手机厂商
-*.mi.com = server:223.5.5.5
-*.xiaomi.com = server:223.5.5.5
-*.xiaomi.net = server:223.5.5.5
-*.huawei.com = server:223.5.5.5
-*.hicloud.com = server:223.5.5.5
-*.vivo.com.cn = server:223.5.5.5
 
 # 比亚迪汽车
 *.bydoceanauto.com = server:119.29.29.29
