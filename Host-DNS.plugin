@@ -1,8 +1,8 @@
 #!name=Host DNS 映射
-#!desc=按域名指定 DNS
+#!desc=按域名指定国内明文 DNS（阿里 223.5.5.5 / 腾讯 119.29.29.29），加速国内域名解析
 #!author=riffraffs
 #!homepage=https://github.com/riffraffs/loon-host-dns
-#!date=2026-10-01 08:08:00
+#!date=2026-10-25 20:05:00
 
 [Host]
 # Apple
@@ -18,10 +18,11 @@ push.apple.com = server:223.5.5.5
 *.push.apple.com = server:223.5.5.5
 *.testflight.apple.com = server:8.8.4.4
 
-# 阿里系
+# 阿里系（淘宝/天猫/1688/阿里云）
 *.taobao.com = server:223.5.5.5
 *.tbcdn.cn = server:223.5.5.5
 *.taobaocdn.com = server:223.5.5.5
+*.tbcache.com = server:223.5.5.5
 *.tmall.com = server:223.5.5.5
 *.tmall.hk = server:223.5.5.5
 *.1688.com = server:223.5.5.5
@@ -31,17 +32,24 @@ push.apple.com = server:223.5.5.5
 *.aliyuncs.com = server:223.5.5.5
 *.aliyun.com = server:223.5.5.5
 *.aliyuncdn.com = server:223.5.5.5
+*.alikunlun.com = server:223.5.5.5
+*.alibabadns.com = server:223.5.5.5
 *.kunlunaq.com = server:223.5.5.5
 *.kunlunsl.com = server:223.5.5.5
 *.kunlunar.com = server:223.5.5.5
 *.kunlunca.com = server:223.5.5.5
 *.kunlungr.com = server:223.5.5.5
 *.cdngslb.com = server:223.5.5.5
+
+# 阿里系（支付宝/蚂蚁/网商银行）
 *.alipay.com = server:223.5.5.5
+*.alipay.cn = server:223.5.5.5
 *.alipayobjects.com = server:223.5.5.5
 *.alipaydns.com = server:223.5.5.5
 *.mybank.cn = server:223.5.5.5
 *.antgroup.com = server:223.5.5.5
+
+# 阿里系（生活/工具/内容）
 *.aliyundrive.com = server:223.5.5.5
 *.alipan.com = server:223.5.5.5
 *.amap.com = server:223.5.5.5
@@ -52,18 +60,33 @@ push.apple.com = server:223.5.5.5
 *.dingtalk.com = server:223.5.5.5
 *.dingtalkapps.com = server:223.5.5.5
 *.umeng.com = server:223.5.5.5
+*.fliggy.com = server:223.5.5.5
+*.feizhu.com = server:223.5.5.5
+*.goofish.com = server:223.5.5.5
+*.idlefish.com = server:223.5.5.5
+*.koubei.com = server:223.5.5.5
+*.hemaos.com = server:223.5.5.5
+*.youku.com = server:223.5.5.5
+*.ykimg.com = server:223.5.5.5
+*.soku.com = server:223.5.5.5
+*.uc.cn = server:223.5.5.5
+*.ucweb.com = server:223.5.5.5
+*.xiami.com = server:223.5.5.5
 
-# 腾讯系
+# 腾讯系（QQ/微信/腾讯云）
 *.qq.com = server:119.29.29.29
 *.qq.com.cn = server:119.29.29.29
 *.tencent.com = server:119.29.29.29
 *.tencent-cloud.net = server:119.29.29.29
 *.tencent-cloud.com = server:119.29.29.29
+*.tencentcs.com = server:119.29.29.29
 *.myqcloud.com = server:119.29.29.29
 *.qcloud.com = server:119.29.29.29
 *.qcloudcdn.com = server:119.29.29.29
+*.qcloudimg.com = server:119.29.29.29
 *.cdntip.com = server:119.29.29.29
 *.dnsv1.com = server:119.29.29.29
+*.dnspod.cn = server:119.29.29.29
 *.tcdnos.com = server:119.29.29.29
 *.weixin.com = server:119.29.29.29
 *.wechat.com = server:119.29.29.29
@@ -76,16 +99,65 @@ push.apple.com = server:223.5.5.5
 *.idqqimg.com = server:119.29.29.29
 *.qpic.cn = server:119.29.29.29
 *.qlogo.cn = server:119.29.29.29
-*.qlogo.com = server:119.29.29.29
+*.qqmail.com = server:119.29.29.29
+*.weiyun.com = server:119.29.29.29
+*.myapp.com = server:119.29.29.29
 
-# 哔哩哔哩
-*.bilibili.com = server:119.29.29.29
-*.bilivideo.com = server:119.29.29.29
-*.bilivideo.cn = server:119.29.29.29
-*.hdslb.com = server:119.29.29.29
-*.biliapi.net = server:119.29.29.29
-*.biliapi.com = server:119.29.29.29
-*.b23.tv = server:119.29.29.29
+# 腾讯音乐系
+*.tencentmusic.com = server:119.29.29.29
+*.kugou.com = server:119.29.29.29
+*.kuwo.cn = server:119.29.29.29
+
+# 字节跳动（抖音/头条/西瓜/飞书/火山引擎）
+*.douyin.com = server:119.29.29.29
+*.douyinpic.com = server:119.29.29.29
+*.douyinvod.com = server:119.29.29.29
+*.douyincdn.com = server:119.29.29.29
+*.douyinstatic.com = server:119.29.29.29
+*.amemv.com = server:119.29.29.29
+*.snssdk.com = server:119.29.29.29
+*.pstatp.com = server:119.29.29.29
+*.bytedance.com = server:119.29.29.29
+*.byteimg.com = server:119.29.29.29
+*.bytecdn.cn = server:119.29.29.29
+*.ibytedtos.com = server:119.29.29.29
+*.bytedns.net = server:119.29.29.29
+*.zjcdn.com = server:119.29.29.29
+*.toutiao.com = server:119.29.29.29
+*.toutiaoimg.com = server:119.29.29.29
+*.ixigua.com = server:119.29.29.29
+*.feishu.cn = server:119.29.29.29
+*.volcengine.com = server:119.29.29.29
+*.volccdn.com = server:119.29.29.29
+
+# 百度
+*.baidu.com = server:223.5.5.5
+*.bdstatic.com = server:223.5.5.5
+*.bdimg.com = server:223.5.5.5
+*.baidupcs.com = server:223.5.5.5
+*.baidubce.com = server:223.5.5.5
+*.bcebos.com = server:223.5.5.5
+*.bdydns.com = server:223.5.5.5
+*.shifen.com = server:223.5.5.5
+*.jomodns.com = server:223.5.5.5
+
+# 京东
+jd.com = server:223.5.5.5
+*.jd.com = server:223.5.5.5
+*.jd.hk = server:223.5.5.5
+*.jdcloud.com = server:223.5.5.5
+*.jdcloud-openapi.com = server:223.5.5.5
+*.360buyimg.com = server:223.5.5.5
+*.360buy.com = server:223.5.5.5
+*.3.cn = server:223.5.5.5
+*.jdpay.com = server:223.5.5.5
+*.jingxi.com = server:223.5.5.5
+
+# 拼多多
+*.pinduoduo.com = server:223.5.5.5
+*.yangkeduo.com = server:223.5.5.5
+*.pddpic.com = server:223.5.5.5
+*.pddugc.com = server:223.5.5.5
 
 # 美团 / 大众点评
 *.meituan.com = server:223.5.5.5
@@ -94,36 +166,140 @@ push.apple.com = server:223.5.5.5
 *.maoyan.com = server:223.5.5.5
 *.sankuai.com = server:223.5.5.5
 
+# 哔哩哔哩
+*.bilibili.com = server:119.29.29.29
+*.bilivideo.com = server:119.29.29.29
+*.bilivideo.cn = server:119.29.29.29
+*.hdslb.com = server:119.29.29.29
+*.biliapi.net = server:119.29.29.29
+*.biliapi.com = server:119.29.29.29
+b23.tv = server:119.29.29.29
+*.b23.tv = server:119.29.29.29
+
+# 小红书
+*.xiaohongshu.com = server:119.29.29.29
+*.xhscdn.com = server:119.29.29.29
+*.xhslink.com = server:119.29.29.29
+
+# 网易
+*.163.com = server:223.5.5.5
+*.126.net = server:223.5.5.5
+*.127.net = server:223.5.5.5
+*.netease.com = server:223.5.5.5
+*.163yun.com = server:223.5.5.5
+
+# 微博 / 新浪
+*.weibo.com = server:223.5.5.5
+*.weibo.cn = server:223.5.5.5
+*.sina.com.cn = server:223.5.5.5
+*.sina.cn = server:223.5.5.5
+*.sinaimg.cn = server:223.5.5.5
+
+# 快手
+*.kuaishou.com = server:119.29.29.29
+*.gifshow.com = server:119.29.29.29
+*.yximgs.com = server:119.29.29.29
+*.kwaicdn.com = server:119.29.29.29
+*.kwimgs.com = server:119.29.29.29
+*.ksapisrv.com = server:119.29.29.29
+
+# 爱奇艺 / 芒果TV / 央视
+*.iqiyi.com = server:223.5.5.5
+*.qiyi.com = server:223.5.5.5
+*.iqiyipic.com = server:223.5.5.5
+*.71.am = server:223.5.5.5
+*.qy.net = server:223.5.5.5
+*.mgtv.com = server:223.5.5.5
+*.hitv.com = server:223.5.5.5
+*.cctv.com = server:223.5.5.5
+*.cntv.cn = server:223.5.5.5
+
 # 咪咕
 *.migu.cn = server:119.29.29.29
 *.miguvideo.com = server:119.29.29.29
+*.miguvideo.com.cn = server:119.29.29.29
 *.cmvideo.cn = server:119.29.29.29
 *.migucloud.com = server:119.29.29.29
 *.migutv.com = server:119.29.29.29
-*.migucdn.cn = server:119.29.29.29
-*.miguvideo.com.cn = server:119.29.29.29
 *.migufm.com = server:119.29.29.29
 *.migufun.com = server:119.29.29.29
 *.cmread.com = server:119.29.29.29
 
-# 京东
-jd.com = server:223.5.5.5
-*.jd.com = server:223.5.5.5
-*.jdcloud.com = server:223.5.5.5
-*.360buyimg.com = server:223.5.5.5
-*.3.cn = server:223.5.5.5
-*.jdpay.com = server:223.5.5.5
+# 出行 / 旅游（滴滴/携程/去哪儿/12306/马蜂窝）
+*.didiglobal.com = server:223.5.5.5
+*.didistatic.com = server:223.5.5.5
+*.xiaojukeji.com = server:223.5.5.5
+*.didichuxing.com = server:223.5.5.5
+*.ctrip.com = server:223.5.5.5
+*.ctrip.cn = server:223.5.5.5
+*.c-ctrip.com = server:223.5.5.5
+*.trip.com = server:223.5.5.5
+*.qunar.com = server:223.5.5.5
+*.qunarzz.com = server:223.5.5.5
+*.12306.cn = server:223.5.5.5
+*.mafengwo.cn = server:223.5.5.5
 
-# 比亚迪
+# 银行 / 支付
+*.95516.com = server:223.5.5.5
+*.unionpay.com = server:223.5.5.5
+*.icbc.com.cn = server:223.5.5.5
+*.ccb.com = server:223.5.5.5
+*.abchina.com = server:223.5.5.5
+*.boc.cn = server:223.5.5.5
+*.bankcomm.com = server:223.5.5.5
+*.cmbchina.com = server:223.5.5.5
+*.cmbimg.com = server:223.5.5.5
+*.95599.cn = server:223.5.5.5
+*.psbc.com = server:223.5.5.5
+*.spdb.com.cn = server:223.5.5.5
+*.cib.com.cn = server:223.5.5.5
+*.cmbc.com.cn = server:223.5.5.5
+*.citicbank.com = server:223.5.5.5
+*.webank.com = server:223.5.5.5
+
+# 运营商 / 政务
+*.10086.cn = server:223.5.5.5
+*.chinamobile.com = server:223.5.5.5
+*.189.cn = server:223.5.5.5
+*.10010.com = server:223.5.5.5
+*.gov.cn = server:223.5.5.5
+
+# 手机厂商
+*.mi.com = server:223.5.5.5
+*.xiaomi.com = server:223.5.5.5
+*.xiaomi.net = server:223.5.5.5
+*.huawei.com = server:223.5.5.5
+*.hicloud.com = server:223.5.5.5
+*.vivo.com.cn = server:223.5.5.5
+
+# 比亚迪汽车
 *.bydoceanauto.com = server:119.29.29.29
 *.bydauto.com.cn = server:119.29.29.29
 *.byd.auto = server:119.29.29.29
 
-# 出行、支付、政务常用
-*.ctrip.com = server:223.5.5.5
-*.trip.com = server:223.5.5.5
-*.12306.cn = server:223.5.5.5
-*.95516.com = server:223.5.5.5
-*.unionpay.com = server:223.5.5.5
-*.icbc.com.cn = server:223.5.5.5
-*.bitwarden.com = server:223.5.5.5
+# 其他常用（知乎/豆瓣/得物/唯品会/苏宁/喜马拉雅/CSDN/Gitee/虎扑/WPS/萤石/什么值得买）
+*.zhihu.com = server:223.5.5.5
+*.zhimg.com = server:223.5.5.5
+*.douban.com = server:223.5.5.5
+*.doubanio.com = server:223.5.5.5
+*.dewu.com = server:223.5.5.5
+*.poizon.com = server:223.5.5.5
+*.vip.com = server:223.5.5.5
+*.vipstatic.com = server:223.5.5.5
+*.suning.com = server:223.5.5.5
+*.ximalaya.com = server:223.5.5.5
+*.xmcdn.com = server:223.5.5.5
+*.csdn.net = server:223.5.5.5
+*.gitee.com = server:223.5.5.5
+*.hupu.com = server:223.5.5.5
+*.wps.cn = server:223.5.5.5
+*.wpscdn.cn = server:223.5.5.5
+*.ys7.com = server:223.5.5.5
+*.smzdm.com = server:223.5.5.5
+
+# 国内 CDN（网宿等）
+*.chinanetcenter.com = server:223.5.5.5
+*.wangsu.com = server:223.5.5.5
+*.wscdns.com = server:223.5.5.5
+*.cdn20.com = server:223.5.5.5
+*.ourwebcdn.com = server:223.5.5.5
