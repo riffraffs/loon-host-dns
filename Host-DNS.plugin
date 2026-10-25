@@ -55,6 +55,7 @@ push.apple.com = server:223.5.5.5
 
 # 腾讯系
 *.qq.com = server:119.29.29.29
+*.qq.com.cn = server:119.29.29.29
 *.tencent.com = server:119.29.29.29
 *.tencent-cloud.net = server:119.29.29.29
 *.tencent-cloud.com = server:119.29.29.29
