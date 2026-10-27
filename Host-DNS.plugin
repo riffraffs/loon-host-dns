@@ -175,6 +175,7 @@ jd.com = server:223.5.5.5
 *.biliapi.com = server:119.29.29.29
 b23.tv = server:119.29.29.29
 *.b23.tv = server:119.29.29.29
+*.szbdyd.com = server:119.29.29.29
 
 # 小红书
 *.xiaohongshu.com = server:119.29.29.29
